@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetComplianceSummaryByResourceType&k=1:
+  /?Action=GetComplianceSummaryByResourceType:
     get:
       summary: ' Get Compliance Summary By Resource Type '
       description: Returns the number of resources that are compliant and the number
