@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetComplianceSummaryByConfigRule&k=1:
+  /?Action=GetComplianceSummaryByConfigRule:
     get:
       summary: ' Get Compliance Summary By Config Rule '
       description: "Returns the number of AWS Config rules that are compliant and
