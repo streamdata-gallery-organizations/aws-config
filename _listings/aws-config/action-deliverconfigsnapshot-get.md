@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeliverConfigSnapshot&k=1:
+  /?Action=DeliverConfigSnapshot:
     get:
       summary: ' Deliver Config Snapshot '
       description: Schedules delivery of a configuration snapshot to the Amazon S3
