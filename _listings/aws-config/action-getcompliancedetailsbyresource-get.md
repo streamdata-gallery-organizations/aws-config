@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetComplianceDetailsByResource&k=1:
+  /?Action=GetComplianceDetailsByResource:
     get:
       summary: ' Get Compliance Details By Resource '
       description: Returns the evaluation results for the specified AWS resource
