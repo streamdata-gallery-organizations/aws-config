@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeComplianceByConfigRule&k=1:
+  /?Action=DescribeComplianceByConfigRule:
     get:
       summary: ' Describe Compliance By Config Rule '
       description: Indicates whether the specified AWS Config rules are compliant
