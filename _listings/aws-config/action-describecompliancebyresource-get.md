@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeComplianceByResource&k=1:
+  /?Action=DescribeComplianceByResource:
     get:
       summary: ' Describe Compliance By Resource '
       description: Indicates whether the specified AWS resources are compliant
