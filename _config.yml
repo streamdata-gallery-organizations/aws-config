@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: aws-config.api.streamdata.gallery
+title: Streamdata Gallery AWS Config
+url: aws-config.streamdata.gallery
 tag: AWS Config
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: aws-config
 github_branch: master
 collections:
