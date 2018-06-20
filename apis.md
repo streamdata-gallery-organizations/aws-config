@@ -1,45 +1,17 @@
 ---
-name: AWS Config
-x-slug: aws-config
-description: AWS Config is a fully managed service that provides you with an AWS resource
-  inventory, configuration history, and configuration change notifications to enable
-  security and governance. Config Rules enables you to create rules that automatically
-  check the configuration of AWS resources recorded by AWS Config.With AWS Config,
-  you can discover existing and deleted AWS resources, determine your overall compliance
-  against rules, and dive into configuration details of a resource at any point in
-  time. These capabilities enable compliance auditing, security analysis, resource
-  change tracking, and troubleshooting.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
-x-kinRank: "10"
-x-alexaRank: ""
-tags: AWS Config
-created: "2018-05-24"
-modified: "2018-05-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-config/master/_listings/aws-config/apis.md
+name: Streadata.io API Gallery - AWS Config
+description: This is a repository of aws config APIs, self-contained as a Github repository,
+  with HTML and YAML representations of the APIs and their surrounding operations.
+image: http://template.streamdata.gallery/assets/aws-config.png
+created: "2018-02-24"
+modified: "2018-06-20"
+url: http://aws-config.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
-x-common:
-- type: x-command-line-interface
-  url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
-- type: x-console
-  url: https://console.aws.amazon.com/config
-- type: x-documentation
-  url: http://docs.aws.amazon.com/config/latest/APIReference/
-- type: x-faq
-  url: https://aws.amazon.com/config/faq/
-- type: x-forum
-  url: https://forums.aws.amazon.com/forum.jspa?forumID=184
-- type: x-getting-started
-  url: https://aws.amazon.com/config/getting-started/
-- type: x-partners
-  url: https://aws.amazon.com/config/partners/
-- type: x-pricing
-  url: https://aws.amazon.com/config/pricing/
-- type: x-support
-  url: https://console.aws.amazon.com/support/
-- type: x-website
-  url: https://aws.amazon.com/config/
-include: []
+tags: AWS Config
+include:
+- name: AWS Config
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-config/master/_listings/aws-config/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

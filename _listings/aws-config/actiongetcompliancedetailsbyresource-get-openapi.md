@@ -115,8 +115,8 @@ paths:
         type: string
       - in: query
         name: NextToken
-        description: "The nextToken string returned on a previous page that\t\t\tyou
-          use to get the next page of results in a paginated response"
+        description: The nextToken string returned on a previous page thatyou use
+          to get the next page of results in a paginated response
         type: string
       responses:
         200:
@@ -140,8 +140,8 @@ paths:
         type: string
       - in: query
         name: NextToken
-        description: "The nextToken string returned on a previous page that\t\t\tyou
-          use to get the next page of results in a paginated response"
+        description: The nextToken string returned on a previous page thatyou use
+          to get the next page of results in a paginated response
         type: string
       - in: query
         name: ResourceId
@@ -149,8 +149,8 @@ paths:
         type: string
       - in: query
         name: ResourceType
-        description: "The types of AWS resources for which you want compliance information;\t\t\tfor
-          example, AWS::EC2::Instance"
+        description: The types of AWS resources for which you want compliance information;for
+          example, AWS::EC2::Instance
         type: string
       responses:
         200:
@@ -197,8 +197,8 @@ paths:
         type: string
       - in: query
         name: NextToken
-        description: "The nextToken string returned on a previous page that\t\t\tyou
-          use to get the next page of results in a paginated response"
+        description: The nextToken string returned on a previous page thatyou use
+          to get the next page of results in a paginated response
         type: string
       responses:
         200:
@@ -291,8 +291,8 @@ paths:
         type: string
       - in: query
         name: NextToken
-        description: "The nextToken string returned on a previous page that\t\t\tyou
-          use to get the next page of results in a paginated response"
+        description: The nextToken string returned on a previous page thatyou use
+          to get the next page of results in a paginated response
         type: string
       responses:
         200:
@@ -312,8 +312,8 @@ paths:
         type: string
       - in: query
         name: NextToken
-        description: "The nextToken string returned on a previous page that\t\t\tyou
-          use to get the next page of results in a paginated response"
+        description: The nextToken string returned on a previous page thatyou use
+          to get the next page of results in a paginated response
         type: string
       - in: query
         name: ResourceId
